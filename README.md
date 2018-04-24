@@ -1,10 +1,13 @@
 # howtojs
+_Inspired on my daily headaches_ 
 
-Basic useful examples to make coding simple.
+Compilation of basic useful JS implementations.
+Arrays search, objects, fancy stuff, etc.
+
 
 This sign `->` indicates expected output.
 
-How to...
+## How to...
 
 ### Get a randoom boolean
 
