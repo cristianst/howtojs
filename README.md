@@ -58,3 +58,14 @@ const highestPrice = Math.max(...prices);
 const lowestPrice = Math.min(...prices);
 // -> 129
 ```
+
+
+### Remove falsy values from array
+```javascript
+const values = [0, 1, true, false, 'Foo', ''];
+
+const filtered = values.filter(i => i);
+
+// -> [1, true, "Foo"]
+
+```
