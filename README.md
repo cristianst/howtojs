@@ -17,6 +17,14 @@ const bool = Math.random() > 0.5;
 // -> true/false
 ```
 
+### Create an array of N items 
+
+```javascript 
+const arr = [...Array(5).keys()]; // N = 5
+
+// -> [0,1,2,3,4]
+```
+
 ### Duplicate array items
 
 ```javascript
@@ -27,7 +35,6 @@ const doubling = numbers.reduce( (res, current, index, array) => {
 }, []);
 
 // -> [1,1,2,2,3,3,4,4] 
-
 ```
 
 Answer in [Stackoverflow](https://stackoverflow.com/a/48792296/2323944)
@@ -94,7 +101,6 @@ const foo = sym([1, 2, 3], [5, 2, 1, 4]);
 const bar = sym([3, 6, 2, 5], [1, 5, 7], [3, 4, 6], [5, 2, 9, 8], [1]);
 
 // -> [7, 4, 9, 8]
-
 ```
 
 Answer in [Stackoverflow](https://stackoverflow.com/a/48705693/2323944)
