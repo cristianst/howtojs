@@ -104,3 +104,7 @@ const bar = sym([3, 6, 2, 5], [1, 5, 7], [3, 4, 6], [5, 2, 9, 8], [1]);
 ```
 
 Answer in [Stackoverflow](https://stackoverflow.com/a/48705693/2323944)
+
+### Contributions
+
+Contributions are more than welcome. If you have some fancy JS stuff to share, happy to check your PR.
